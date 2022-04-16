@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&family=Satisfy&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .main-content {
+            /* position: absolute;
+            right: 0; */
+            width: 100%;
+            min-height: 100vh;
+            padding: 0px 100px 100px 100px;
+            /* display: flex;
+            justify-content: space-between;
+            align-items: center; */
+            background-color: black;
+            color: white;
+            z-index: 2;
+            /* display: flex;
+            align-items: center; */
+            justify-content: center;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 40px 100px;
+            z-index: 10;
+        }
+
+        .main-page {
+            position: relative;
+            top: 200px;
+            z-index: 10;
+        }
+
+        .main-page h2 {
+            font-size: 4em;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1em;
+            text-align: center;
+        }
+
+
+
+        .main-content video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.7;
+        }
+
+        .backdrop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(to right, rgb(207, 159, 202), rgb(231, 231, 231));
+            mix-blend-mode: overlay;
+        }
+
+        #nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        #nav li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        .alisa-header {
+            position: relative;
+            z-index: 30;
+
+        }
+
+        .alisa-header h4 {
+            font-size: 1.5em;
+            font-weight: 750;
+            color: #fff;
+            line-height: 1em;
+            text-align: center;
+            margin: auto;
+            padding-top: 15%;
+            position: absolute;
+            left: 350px;
+        }
+
+        .alisa-content img {
+            display: block;
+            z-index: 5;
+            position: absolute;
+            left: 550px;
+            top: 35%;
+        }
+
+        .alisa-container{
+            /* display: block; */
+            z-index: 5;
+            position: absolute;
+            left: 15%;
+            top: 70%;
+            background-color: rgb(237, 236, 233);
+            width: 70%;
+            opacity: 90%;
+            padding: 10px;   
+         }
+
+
+        .alisa-container p{
+            color: rgb(34, 194, 194);
+            font-size: 13px;
+            font-weight: bold;  
+            /* padding: 10px;    */
+        }
+
+        .alisa-container .alisa-info{
+            color: black;
+            text-align: center;
+            padding: 3px;
+        }
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Puteri Nur Alisa</title>
+</head>
+
+<body>
+    <section id="main-content" class="main-content">
+
+        <header id="nav" class="nav">
+
+            <h2>Group 4</h2>
+
+            <div id="nav-bar"></div>
+            <ul>
+                <li><a href="mainPage.html">Home</a></li>
+                <li><a href="#project1">The vase</a></li>
+                <li><a href="#project2">Coming soon</a></li>
+                <li><a href="#project3">Coming soon</a></li>
+                <li style="float:right"><a class="active" href="aboutUs.html">About us</a></li>
+            </ul>
+            </div>
+        </header>
+
+        <video src="images/backgroundAlisa.mp4" autoplay loop muted></video>
+        <div id="overlay" class="backdrop"></div>
+
+        <div class="alisa-header">
+            <h4>Profile Page Puteri Nur Alisa</h4>
+        </div>
+
+        <div class="alisa-content">
+            <img src="images/alisapic.PNG" style="height: 180px;">
+        </div>
+
+        <div class="alisa-container">
+            <p> Welcome!</p>
+            <img id="gif" src="images/hialisa.gif" style="height: 75px;">
+            <hr>
+            <p class="alisa-info">
+                Name: Puteri Nur Alisa binti Ismail <br>
+                Matric number: A19ET0362 <br>
+                Email address: puterinuralisa@graduate.utm.my <br>
+                Contact number: 0139069615 | 01128920252 <br>
+                Address: Klang, Selangor <br>
+
+            </p>
+        </div>
+
+
+
+    </section>
+</body>
+
+</html>
