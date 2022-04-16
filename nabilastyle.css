@@ -31,8 +31,8 @@
 }
 
 .my-social-media{
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    bottom: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
 }
 
 .my-social-media li a:hover {
-    filter: invert(1);
+    filter: saturate(3);
     transform: scale(0.9) translateX(10px) translateY(-10px);
 }
 
