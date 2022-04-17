@@ -9,10 +9,10 @@
     padding: 10px;
     border: 5px solid #fff;
     position: relative;
-    top: 180px;
+    top: 200px;
     left: 90px;
     float: left;
-    width: 170px;
+    width: 200px;
     height: 230px;
 }
 
@@ -22,17 +22,24 @@
     padding: 20px 0px;
 }
 
+#profilepicture p{
+  font-size: 14px;
+  text-align: center;  
+  padding-top: 5px;
+}
+
 #aboutme {
     text-align: center;
     position: relative;
-    top: 180px;
+    top: 230px;
     left: 10px;
     color: white;
 }
 
 .my-social-media{
     position: relative;
-    bottom: -50px;
+    top: 50px;
+    left: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +118,7 @@ header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to right, black, green);
+    background-image: linear-gradient(to right, rgb(69, 69, 69), rgb(211, 213, 151));
     mix-blend-mode: overlay;
 }
 
@@ -140,6 +147,6 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #d0c746;
 }
 
